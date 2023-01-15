@@ -1,4 +1,4 @@
-# Data Structures (COE 312): Fall 2022
+# Computer Programming (COE 211): Spring 2023
 
 ## Link to course webpage
 
