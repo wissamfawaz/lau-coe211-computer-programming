@@ -1,0 +1,190 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* =================
+Typography
+================= */
+
+h1,
+h2 {
+  font-weight: 400;
+  color: #034f3d;
+  margin-top: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+a {
+  color: #0cae88;
+}
+
+a:hover,
+a:focus {
+  color: #034f3d;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 1rem;
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* =================
+Layout
+================= */
+.header-logo {
+  text-align: center;
+}
+
+.logo-image {
+  max-width: 60%;
+  object-fit: contain;
+}
+
+.logo-image:hover {
+  transform: scale(1.1);
+}
+
+.container {
+  width: 90%;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  padding: 2em 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  padding: 1em 0;
+  background-color: #034f3d;
+  color: white;
+  margin-top: 3em;
+}
+
+#header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-bottom: 1em;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.quote {
+  font-style: italic;
+  font-family: cursive;
+  font-size: 1rem;
+  color: #0cae88;
+  text-align: center;
+  padding: 0.75em;
+}
+
+/* =================
+Table
+================= */
+
+table {
+  table-layout: fixed;
+  border: 2px solid rgba(3, 79, 61, 0.7);
+  box-shadow: 0px 5px 10px 0px rgb(0, 0, 0, 0.3);
+  border-radius: 10px;
+  border-spacing: 0;
+}
+
+thead th:nth-child(1) {
+  width: 20%;
+}
+
+thead th:nth-child(2) {
+  width: 80%;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #0cae88;
+}
+
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: none;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tr th:nth-child(3),
+tr td:nth-child(3),
+tr th:nth-child(4),
+tr td:nth-child(4) {
+  display: none;
+}
+
+/* =================
+Media queries
+================= */
+
+@media (min-width: 675px) {
+  body {
+    font-size: 1.125rem;
+  }
+
+  #header-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .header-logo {
+    text-align: left;
+  }
+
+  thead th:nth-child(1) {
+    width: 15%;
+  }
+
+  thead th:nth-child(2) {
+    width: 50%;
+  }
+
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+
+  thead th:nth-child(4) {
+    width: 15%;
+  }
+
+  tr th:nth-child(3),
+  tr td:nth-child(3),
+  tr th:nth-child(4),
+  tr td:nth-child(4) {
+    display: table-cell;
+  }
+}
