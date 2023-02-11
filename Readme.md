@@ -2,7 +2,7 @@
 
 ## Link to course webpage
 
-The material of the course can be downloaded from the course's [webpage](https://wissamfawaz.github.io/lau-coe211-computer-programming/)
+The material of the course can be downloaded from the course's [webpage](https://wissamfawaz.com/COE211)
 
 ## Logistics
 
